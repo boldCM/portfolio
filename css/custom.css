@@ -9915,6 +9915,10 @@ body {
   padding-left: 7rem;
 }
 
+.card-deck {
+  margin-bottom: 20px;
+}
+
 h5 {
   font-weight: 600;
   color: #decdc3;
