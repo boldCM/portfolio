@@ -59,7 +59,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #decdc3;
+  color: #e5e5e5;
   text-align: left;
   background-color: #2d4059;
 }
@@ -1646,7 +1646,7 @@ pre code {
 .table {
   width: 100%;
   margin-bottom: 1rem;
-  color: #decdc3;
+  color: #e5e5e5;
 }
 .table th,
 .table td {
@@ -1691,7 +1691,7 @@ pre code {
 }
 
 .table-hover tbody tr:hover {
-  color: #decdc3;
+  color: #e5e5e5;
   background-color: rgba(0, 0, 0, 0.075);
 }
 
@@ -2045,7 +2045,7 @@ select.form-control:focus::-ms-value {
   margin-bottom: 0;
   font-size: 1rem;
   line-height: 1.5;
-  color: #decdc3;
+  color: #e5e5e5;
   background-color: transparent;
   border: solid transparent;
   border-width: 1px 0;
@@ -2378,7 +2378,7 @@ textarea.form-control {
 .btn {
   display: inline-block;
   font-weight: 400;
-  color: #decdc3;
+  color: #e5e5e5;
   text-align: center;
   vertical-align: middle;
   user-select: none;
@@ -2396,12 +2396,12 @@ textarea.form-control {
   }
 }
 .btn:hover {
-  color: #decdc3;
+  color: #e5e5e5;
   text-decoration: none;
 }
 .btn:focus, .btn.focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(222, 205, 195, 0.25);
+  box-shadow: #e5e5e5;
 }
 .btn.disabled, .btn:disabled {
   opacity: 0.65;
@@ -2962,7 +2962,7 @@ input[type=button].btn-block {
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
   font-size: 1rem;
-  color: #decdc3;
+  color: #e5e5e5;
   text-align: left;
   list-style: none;
   background-color: #fff;
@@ -4966,7 +4966,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   background-color: #f8f9fa;
 }
 .list-group-item-action:active {
-  color: #decdc3;
+  color: #e5e5e5;
   background-color: #e9ecef;
 }
 
@@ -5748,7 +5748,7 @@ a.close.disabled {
 
 .popover-body {
   padding: 0.5rem 0.75rem;
-  color: #decdc3;
+  color: #e5e5e5;
 }
 
 .carousel {
@@ -9756,7 +9756,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-body {
-  color: #decdc3 !important;
+  color: #e5e5e5 !important;
 }
 
 .text-muted {
@@ -9894,6 +9894,14 @@ h3 {
     border-color: #dee2e6;
   }
 }
+.masthead-brand {
+  color: #decdc3;
+}
+
+.btn-farbe {
+  color: #2d4059;
+}
+
 body {
   margin: 20px;
 }
@@ -9909,6 +9917,19 @@ body {
 
 h5 {
   font-weight: 600;
+  color: #decdc3;
+}
+
+#This {
+  margin: 5px 0px 40px 0px;
+}
+
+#Top5 {
+  margin: 5px 0px 40px 0px;
+}
+
+#Tanz {
+  margin: 5px 0px 40px 0px;
 }
 
 /*# sourceMappingURL=custom.css.map */
