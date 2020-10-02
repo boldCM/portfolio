@@ -59,7 +59,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #e5e5e5;
+  color: #decdc3;
   text-align: left;
   background-color: #2d4059;
 }
@@ -1646,7 +1646,7 @@ pre code {
 .table {
   width: 100%;
   margin-bottom: 1rem;
-  color: #e5e5e5;
+  color: #decdc3;
 }
 .table th,
 .table td {
@@ -1691,7 +1691,7 @@ pre code {
 }
 
 .table-hover tbody tr:hover {
-  color: #e5e5e5;
+  color: #decdc3;
   background-color: rgba(0, 0, 0, 0.075);
 }
 
@@ -2045,7 +2045,7 @@ select.form-control:focus::-ms-value {
   margin-bottom: 0;
   font-size: 1rem;
   line-height: 1.5;
-  color: #e5e5e5;
+  color: #decdc3;
   background-color: transparent;
   border: solid transparent;
   border-width: 1px 0;
@@ -2378,7 +2378,7 @@ textarea.form-control {
 .btn {
   display: inline-block;
   font-weight: 400;
-  color: #e5e5e5;
+  color: #decdc3;
   text-align: center;
   vertical-align: middle;
   user-select: none;
@@ -2396,7 +2396,7 @@ textarea.form-control {
   }
 }
 .btn:hover {
-  color: #e5e5e5;
+  color: #decdc3;
   text-decoration: none;
 }
 .btn:focus, .btn.focus {
@@ -2962,7 +2962,7 @@ input[type=button].btn-block {
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
   font-size: 1rem;
-  color: #e5e5e5;
+  color: #decdc3;
   text-align: left;
   list-style: none;
   background-color: #fff;
@@ -4749,7 +4749,8 @@ a.badge-dark:focus, a.badge-dark.focus {
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  background-color: #e9ecef;
+  color: #decdc3;
+  background-color: #2d4059;
   border-radius: 0.3rem;
 }
 @media (min-width: 576px) {
@@ -4965,7 +4966,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   background-color: #f8f9fa;
 }
 .list-group-item-action:active {
-  color: #e5e5e5;
+  color: #decdc3;
   background-color: #e9ecef;
 }
 
@@ -5747,7 +5748,7 @@ a.close.disabled {
 
 .popover-body {
   padding: 0.5rem 0.75rem;
-  color: #e5e5e5;
+  color: #decdc3;
 }
 
 .carousel {
@@ -9755,7 +9756,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-body {
-  color: #e5e5e5 !important;
+  color: #decdc3 !important;
 }
 
 .text-muted {
@@ -9899,6 +9900,11 @@ body {
 
 .nav-item {
   font-weight: 600;
+}
+
+.platz {
+  padding-top: 6rem;
+  padding-left: 7rem;
 }
 
 h5 {

@@ -1,9 +1,11 @@
 // Your variable overrides
 // See node_modules/bootstrap/scss/_variables.scss for all variables
 $body-bg: #2d4059;
-$body-color: #e5e5e5;
+$body-color: #decdc3;
 $primary: #decdc3;
 $font-family-base: Arial;
+$jumbotron-bg: #2d4059;
+$jumbotron-color: #decdc3;
 
 // Include all Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
@@ -16,7 +18,10 @@ body {
 .nav-item {
   font-weight: 600;
 }
-
+.platz {
+  padding-top: 6rem;
+  padding-left: 7rem;
+}
 h5 {
   font-weight: 600;
 }
