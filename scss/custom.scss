@@ -1,17 +1,24 @@
 // Your variable overrides
 // See node_modules/bootstrap/scss/_variables.scss for all variables
 $body-bg: #2d4059;
-$body-color: #decdc3;
+$body-color: #e5e5e5;
 $primary: #decdc3;
 $font-family-base: Arial;
 $jumbotron-bg: #2d4059;
 $jumbotron-color: #decdc3;
 
+$btn-focus-box-shadow: #e5e5e5;
+
 // Include all Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Add you custom CSS
-
+.masthead-brand {
+  color: #decdc3;
+}
+.btn-farbe {
+  color: #2d4059;
+}
 body {
   margin: 20px;
 }
@@ -24,4 +31,15 @@ body {
 }
 h5 {
   font-weight: 600;
+  color: #decdc3;
+}
+
+#This {
+  margin: 5px 0px 40px 0px;
+}
+#Top5 {
+  margin: 5px 0px 40px 0px;
+}
+#Tanz {
+  margin: 5px 0px 40px 0px;
 }
