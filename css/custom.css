@@ -9897,4 +9897,12 @@ body {
   margin: 20px;
 }
 
+.nav-item {
+  font-weight: 600;
+}
+
+h5 {
+  font-weight: 600;
+}
+
 /*# sourceMappingURL=custom.css.map */
