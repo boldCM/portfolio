@@ -57,12 +57,37 @@
           saepe necessitatibus assumenda impedit esse ipsa ea! Vel nesciunt
           voluptate fugit.
         </p>
-        <a class="btn btn-primary btn-farbe" href="#" role="button">
-          Zurück nach Oben
-        </a>
-        <a class="btn btn-primary btn-farbe" href="#Spielerei" role="button"
+        <!-- <a class="btn btn-primary btn-farbe" href="#Spielerei" role="button"
           >Zur Bootstrap-Spielerei</a
-        >
+        > -->
+        <div class="btn-group">
+          <div class="dropdown">
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#Bootstrap-Cards">Cards</a>
+              <a class="dropdown-item" href="#carouselExampleCaptions"
+                >carousel</a
+              >
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+            <button
+              type="button"
+              class="btn btn-primary dropdown-toggle btn-farbe"
+              id="dropdownMenuOffset"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              data-offset="10,20"
+            >
+              Zur Bootstrap-Spielerei
+            </button>
+            <a role="button" class="btn btn-primary btn-farbe" href="#">
+              Zurück nach Oben
+            </a>
+            <a role="button" class="btn btn-primary btn-farbe" href="#Kontakt">
+              Zum Kontakt
+            </a>
+          </div>
+        </div>
       </section>
       <section id="Top5">
         <h5>Top 5</h5>
@@ -116,7 +141,7 @@
       <section id="Spielerei">
         <!-- Bootstrap-Spielerei -->
         <h5>Bootstrap-Spielerei</h5>
-        <div class="card-deck">
+        <div class="card-deck" id="Bootstrap-Cards">
           <div class="card">
             <img
               src="Images/mountains-480471_960_720.jpg"
@@ -173,7 +198,7 @@
         </div>
         <div
           id="carouselExampleCaptions"
-          class="carousel carouselBottom slide"
+          class="carousel carouselBottom slide w-100 h-100"
           data-ride="carousel"
         >
           <ol class="carousel-indicators">
@@ -250,19 +275,16 @@
       </section>
     </main>
 
-    <footer>
+    <footer id="Kontakt">
       <div class="card text-center">
-        <h5 class="card-header">Featured</h5>
+        <h5 class="card-header">Ich bin hier zu finden:</h5>
         <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
-          <p class="card-text">
-            With supporting text below as a natural lead-in to additional
-            content.
-          </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-farbe">E-Mail</a>
+          <a href="#" class="btn btn-primary btn-farbe">Git-Hub</a>
+          <a href="#" class="btn btn-primary btn-farbe">Phone</a>
         </div>
+        <p class="card-text">Und vielleicht auch bald in Ihrem Unternehmen.</p>
+        <p></p>
       </div>
     </footer>
 
