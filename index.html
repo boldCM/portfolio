@@ -31,8 +31,22 @@
     <main>
       <div class="cover-container w-100 h-100 jumbotron jumbotron-fluid">
         <div class="container platz vw-100 vh-100">
-          <h1 class="display-4">Carolin Meier.</h1>
-          <p class="lead">Explore the three T's</p>
+          <div class="media">
+            <div class="media-body">
+              <p></p>
+              <br />
+              <br />
+              <br />
+              <br />
+              <h1 class="display-4">Carolin Meier.</h1>
+              <p class="lead">Explore the three T's</p>
+            </div>
+            <img
+              src="Images/SquareMe.jpg"
+              class="ml-3 rounded-circle float-right"
+              alt="me"
+            />
+          </div>
         </div>
       </div>
       <!-- <link img... /> -->
@@ -57,12 +71,37 @@
           saepe necessitatibus assumenda impedit esse ipsa ea! Vel nesciunt
           voluptate fugit.
         </p>
-        <a class="btn btn-primary btn-farbe" href="#" role="button">
-          Zurück nach Oben
-        </a>
-        <a class="btn btn-primary btn-farbe" href="#Spielerei" role="button"
+        <!-- <a class="btn btn-primary btn-farbe" href="#Spielerei" role="button"
           >Zur Bootstrap-Spielerei</a
-        >
+        > -->
+        <div class="btn-group">
+          <div class="dropdown">
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#Bootstrap-Cards">Cards</a>
+              <a class="dropdown-item" href="#carouselExampleCaptions"
+                >carousel</a
+              >
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+            <button
+              type="button"
+              class="btn btn-primary dropdown-toggle btn-farbe"
+              id="dropdownMenuOffset"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              data-offset="10,20"
+            >
+              Zur Bootstrap-Spielerei
+            </button>
+            <a role="button" class="btn btn-primary btn-farbe" href="#">
+              Zurück nach Oben
+            </a>
+            <a role="button" class="btn btn-primary btn-farbe" href="#Kontakt">
+              Zum Kontakt
+            </a>
+          </div>
+        </div>
       </section>
       <section id="Top5">
         <h5>Top 5</h5>
@@ -116,7 +155,7 @@
       <section id="Spielerei">
         <!-- Bootstrap-Spielerei -->
         <h5>Bootstrap-Spielerei</h5>
-        <div class="card-deck">
+        <div class="card-deck" id="Bootstrap-Cards">
           <div class="card">
             <img
               src="Images/mountains-480471_960_720.jpg"
@@ -173,7 +212,7 @@
         </div>
         <div
           id="carouselExampleCaptions"
-          class="carousel carouselBottom slide"
+          class="carousel carouselBottom slide w-100 h-100"
           data-ride="carousel"
         >
           <ol class="carousel-indicators">
@@ -250,19 +289,26 @@
       </section>
     </main>
 
-    <footer>
+    <footer id="Kontakt">
       <div class="card text-center">
-        <h5 class="card-header">Featured</h5>
+        <h5 class="card-header">Ich bin hier zu finden:</h5>
         <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
-          <p class="card-text">
-            With supporting text below as a natural lead-in to additional
-            content.
-          </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-farbe mr-2">E-Mail</a>
+          <a
+            class="elementor-icon elementor-social-icon elementor-social-icon-github elementor-repeater-item-2bf477c ml-5 mr-5"
+            href="https://github.com/boldCM"
+            target="_blank"
+          >
+            <span class="elementor-screen-only"
+              ><img src="Images/GitHub-Mark-32px.png" art="Icon"
+            /></span>
+            <i class="fab fa-facebook"></i>
+          </a>
+
+          <a href="#" class="btn btn-primary btn-farbe ml-2">Phone</a>
         </div>
+        <p class="card-text">Und vielleicht auch bald in Ihrem Unternehmen.</p>
+        <p></p>
       </div>
     </footer>
 

@@ -6,6 +6,10 @@ $primary: #decdc3;
 $font-family-base: Arial;
 $jumbotron-bg: #2d4059;
 $jumbotron-color: #decdc3;
+$white: #2d4059;
+$card-cap-bg: rgba(45, 64, 89, 1);
+$black: rgba(45, 64, 89, 1);
+$card-color: #2d4059;
 
 $btn-focus-box-shadow: #e5e5e5;
 
@@ -44,6 +48,12 @@ h5 {
 #Tanz {
   margin: 5px 0px 40px 0px;
 }
-.card-text {
-  text-align: center;
+.card-body {
+  background-color: #2d4059;
 }
+// .footer-bg {
+// background-color: #2d4059;
+// }
+// .div.card-body {
+// background-color: #2d4059;
+// }
