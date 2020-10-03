@@ -29,6 +29,9 @@ body {
   padding-top: 6rem;
   padding-left: 7rem;
 }
+.card-deck {
+  margin-bottom: 20px;
+}
 h5 {
   font-weight: 600;
   color: #decdc3;
@@ -43,3 +46,6 @@ h5 {
 #Tanz {
   margin: 5px 0px 40px 0px;
 }
+// .masterfoot {
+//   text-align: center;
+// } noch zentrieren, evtl flexbox columns, evtl verlinken
